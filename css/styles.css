@@ -1,0 +1,69 @@
+main {
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+  margin: auto auto 10px;
+}
+
+div {
+  flex-basis: 100%;
+}
+
+img {
+  margin: 10px auto;
+  width: 90%;
+  border-radius: 8px;
+}
+
+
+/************Class Selectors***********/
+
+.container {
+  background-color: white;
+  width: 20%;
+  height: 60%;
+  border-radius: 12px;
+  margin: 100px 500px;
+  position: absolute;
+
+}
+
+.smaller-para {
+  color: gray;
+  font-size: 15px;
+}
+
+.attribution {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px; text-align: center;
+  margin: 20px auto auto;
+  width: 80%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
