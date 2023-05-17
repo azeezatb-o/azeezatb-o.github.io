@@ -1,0 +1,150 @@
+body {
+  background-color: #F9F5EB;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /*rem is a more dynamic font size unit than px that always imposes the
+  font size specified in the child element regardless of the one set in the
+  parent element*/
+  font-size: 5.625rem;
+  color: #439A97;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #439A97;
+  /* margin: 50px auto; */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  margin: auto 20px;
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #AEC2B6;
+  border-width: 5px;
+  margin: 100px auto;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+/**
+div {
+  background-color: #E9A178;
+}
+*/
+
+/************Class Selectors***********/
+.top-container {
+  background-color: #CBEDD5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.mid-container {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.bottom-container {
+  padding-top: 50px;
+  padding-bottom: auto;
+  background-color: #94AF9F;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 50px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.comp-img {
+  width: 25%;
+  /* The float property wraps text around the image by putting the text just beside the image. */
+  float: left;
+  margin-right: 30px;
+}
+
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 3px #11999e;
+  -moz-box-shadow: 0px 1px 3px #11999e;
+  box-shadow: 0px 1px 3px #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #EAF6F6;
+  font-size: 20px;
+  padding: 15px;
+  background: #439a97;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999e;
+  text-decoration: none;
+}
+/* .align-left {
+  text-align: left;
+} */
